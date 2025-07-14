@@ -61,7 +61,7 @@ ARG GO_STRIP
 # CGO_ENABLED manually sets if cgo is used
 ARG CGO_ENABLED
 # VERSION sets the version for the produced binary
-ARG VERSION
+ARG VERSION=28.3.0-rossonet
 # PACKAGER_NAME sets the company that produced the windows binary
 ARG PACKAGER_NAME
 COPY --link --from=goversioninfo /out/goversioninfo /usr/bin/goversioninfo
