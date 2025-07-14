@@ -2,7 +2,7 @@ variable "GO_VERSION" {
     default = "1.24.5"
 }
 variable "VERSION" {
-    default = ""
+    default = "28.3.0-rossonet"
 }
 variable "USE_GLIBC" {
     default = ""
